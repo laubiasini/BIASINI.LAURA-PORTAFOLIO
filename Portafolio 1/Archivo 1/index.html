@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOGRAFÍA BIASINI, LAURA</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        h2{color:rgb(180, 13, 180)}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="Título">BIASINI LAURA VERÓNICA</h1>
+    </header>
+    <nav class="Nav">
+        <a href="#Datos">INICIO</a>&ensp;&ensp;
+        <a href="#Experiencia">SOBRE MÍ</a>&ensp;&ensp;
+        <a href="#Contacto">CONTACTO</a>
+    </nav>
+    <section>
+        <div>
+            <br>
+            <img src="D:\BIASINI, LAURA - 6° B-F\BIASINI, LAURA - PROGRAMACIÓN III\BIASINI, LAURA - PORTAFOLIO\BIASINI, LAURA - PORTAFOLIO\Portafolio 1\Archivo 1\assets\img\yo.jpg" width="130px" height="130px" style="float: left;">
+            <h2 id="Datos"><abbr title=¡¡IMPORTANTE!!>Datos personales</abbr></h2>
+            <table class="Tabla">
+                <tr>
+                    <td><u>NOMBRE:</u> Laura Verónica&ensp;&ensp;&ensp;</td>
+                    <td><u>APELLIDO:</u> Biasini&ensp;&ensp;&ensp;&ensp;&ensp;</td>
+                    <td><u>CIUDAD:</u> San Francisco, Córdoba, Arg.</td>
+                </tr>
+                <tr>
+                    <td><u>FECHA DE NACIMIENTO:</u> 13/11/2005 &ensp;&ensp;&ensp;&ensp;</td>
+                    <td><u>EDAD:</u> 17 años&ensp;&ensp;&ensp;&ensp;&ensp;</td>
+                    <td><u>ESTUDIOS:</u> Secundarios</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <!--Breve Descripción personal-->
+        <p>Me apasionan temas como: la fotografía, el diseño gráfico, la música en iglés, la programación web y demás. Soy una persona muy responsable, puntual, empática, respetuosa, autodidacta, a veces procrastinadora pero aún así me enfoco en mis objetivos y no descanso hasta obtenerlos.</p>
+        <p>En cuanto a música, mis artistas favoritos son: <a href="https://es.wikipedia.org/wiki/Hillsong_Music">Hillsong Music</a>, <a href="https://es.wikipedia.org/wiki/Unspoken_(banda)">Unspoken</a>, <a href="https://es.wikipedia.org/wiki/Matthew_West">Matthew West</a> y <a href="https://es.wikipedia.org/wiki/Hollyn">Hollyn</a>.</p>
+        <hr>
+        <h2 id="Experiencia">Experiencia escolar</h2>
+        <table>
+            <tr>
+                <th>Entidad</th>
+                <th>Localización</th>
+                <th>Desde-Hasta</th>
+                <th>Promoción</th>
+            </tr>
+            <tr>
+                <td>Jardín José María de Aimeta &ensp;</td>
+                <td>San Francisco, Córdoba &ensp;&ensp;</td>
+                <td>2010-2011 &ensp;&ensp;</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <td>Escuela General Bartolomé Mitre &ensp;</td>
+                <td>San Francisco, Córdoba &ensp;&ensp;</td>
+                <td>2012-2017 &ensp;&ensp;</td>
+                <td>2017 &ensp;</td>
+            </tr>
+            <tr>
+                <td>Escuela Experimental Pro-A &ensp;</td>
+                <td>San Francisco, Córdoba &ensp;&ensp;</td>
+                <td>2018-Actualidad &ensp;&ensp;</td>
+                <td>2024 &ensp;</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Habilidades y Conocimientos</h2>
+        <ul type="disc">
+            <li><b>Fotografía:</b><i>Conocimiento básico de las herramientas de un teléfono celular.</i></li>
+            <li><b>Música:</b><i>Conocimiento intermedio de piano.</i></li>
+            <li><b>Diseño Gráfico:</b><i>Conocimiento básico del programa Adobe Ilustrator y Gimp.</i></li>
+        </ul>
+        <hr>
+        <h2>Actividades Extracurriculares</h2>
+        <table>
+            <tr>
+                <th>Entidad</th>
+                <th>Localización</th>
+                <th>Desde-Hasta</th>
+            </tr>
+            <tr>
+                <td>Clases particulares de piano &ensp;</td>
+                <td>San Francisco, Córdoba &ensp;&ensp;</td>
+                <td>2012-2013 &ensp;&ensp;</td>
+            </tr>
+            <tr>
+                <td>El rayito de sol &ensp;</td>
+                <td>San Francisco, Córdoba &ensp;&ensp;</td>
+                <td>2015-2017 &ensp;&ensp;</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <aside>
+        <article class="Aside">
+            <blockquote class="S-Solid">
+                <table>
+                    <h2 id="Contacto">Conectémonos</h2>
+                    <form name="formulario.dp" id="formulario.dp" method="post">
+                        <tr>
+                        <td><label for= "nombre"><u>Apellido y Nombre:</u></label></td>
+                        <td><input type="text" name="nombre" id="nombre" autocomplete="additional-name" placeholder="Aquí va su apellido"></td>
+                    </tr>
+                    <tr>        
+                        <td><label for="correo"><u>Correo Electrónico:</u></label></td>
+                        <td><input type="email" name="correo" id="correo" placeholder="Ej: laura@gmail.com" required></td>
+                    </tr>
+                    <tr>        
+                        <td><label for="numero telefónico"><u>Número Telefónico:</u></label></td>
+                        <td><input pattern=[0-9]{10} name="numero telefónico" id="numero telefónico" title="Inserte su número telefónico" placeholder="Aquí va su número" required form="formulario"></td>
+                    </tr>  
+                    </form>
+                </table>
+                <input type="submit" value="Enviar">
+            </blockquote>
+        </article>
+    </aside>
+    <footer>   
+        <h2>Contacto</h2>
+        <blockquote>
+            <p>Teléfono: <a href= "https://web.whatsapp.com/">3564-783974</a></p>
+            <p>Gmail: <a href="https://mail.google.com/mail/u/0/#inbox">lauravbiasinigmail.com</a></p>
+        </blockquote>
+        <h2>Perfiles sociales</h2>
+        <p>También puedes encontrarme en:</p>
+        <ul type="circle">
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <br>
+            <br>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
